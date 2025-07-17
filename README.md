@@ -11,6 +11,26 @@ This project builds real-world ML models to solve three banking problems:
 
 ## 📂 Files & Structure
 
+###  Dataset Files
+- `Banking_Subscription_Prediction.csv` → Customer subscription data
+- `Fraud_Detection_in_Transactional_Data.csv` → Fraud transaction records  
+- `Loan_Default_Prediction.csv` → Loan risk data
+
+###  Notebooks
+#### Banking_Subscription/
+- `Logistic_Regression.ipynb` → Subscription prediction model
+- `Random_Forest.ipynb` → Alternative ML approach
+
+#### Fraud_Detection/
+- `Logistic_Regression.ipynb` → Fraud detection model  
+- `Random_Forest.ipynb` → Ensemble method implementation
+
+#### Loan_Default/
+- `Logistic_Regression.ipynb` → Default risk prediction
+- `Random_Forest.ipynb` → Tree-based classifier
+
+###  Report
+- `Tabular_Report.pdf` → Full analysis summary
 
 ## 🔍 What's Inside?
 
@@ -47,6 +67,11 @@ This project builds real-world ML models to solve three banking problems:
    - Picked best model based on accuracy, precision, recall
 
 ## 🚀 How to Run
-1. **Install Python libraries**:
-   ```bash
-   pip install pandas scikit-learn xgboost statsmodels jupyter
+
+### Prerequisites
+- Python 3.8+
+- Jupyter Notebook
+- Required libraries:
+  ```bash
+  pip install pandas numpy scikit-learn xgboost statsmodels matplotlib jupyter
+
